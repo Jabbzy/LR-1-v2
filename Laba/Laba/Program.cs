@@ -8,8 +8,8 @@ namespace Laba
         {
             int a = ReadInt("Введите первое целое число: ");
             int b = ReadInt("Введите второе целое число: ");
-            int result = a + b;
-            Console.WriteLine($"Сумма чисел: {result}");
+            int result = a - b;
+            Console.WriteLine($"Разность чисел: {result}");
         }
 
         static int ReadInt(string message)
